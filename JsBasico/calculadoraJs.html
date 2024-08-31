@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora ETEC</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="calculadora.js" defer></script>
+    <link rel="stylesheet" href="calculadora.css">
+</head>
+<body>
+
+    <div id="calculadora_corpo">
+        <h2>Calculadora Básica</h2>
+
+        <label for="numero1">Digite o 1° número</label>
+        <input type="text" id="numero1" value="">
+        <div class="erro"></div>
+
+        <br>
+        <label for="numero2">Digite o 2° número</label>
+        <input type="text" id="numero2" value="">
+        <div class="erro"></div>
+
+        <h3>Escolha a operação:</h3>
+        <div id="btn_operacao">
+            <button type="button" id="mais">Somar</button>
+            <button type="button" id="menos">Subtrair</button>
+            <button type="button" id="vezes">Vezes</button>
+            <button type="button" id="dividir">Dividir</button>
+        </div>
+
+        <h3>Resultado</h3>
+        <input type="text" id="resultado" value="" readonly>
+        <br>
+        <button type="button" id="limpar">Limpar</button>
+        <br>
+        <button onclick="alternarTema()">Alterar Tema</button>
+    </div>
+
+</body>
+</html>
