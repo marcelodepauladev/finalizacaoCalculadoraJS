@@ -10,7 +10,19 @@ body {
 .tema-escuro{
     background-color: black;
     color: white;
+
 }
+
+.tema-escuro button {
+    background-color: white; /* Fundo branco para os botões no tema escuro */
+    color: black; /* Cor do texto dos botões no tema escuro */
+}
+
+.tema-escuro #limpar {
+    background-color: white; /* Fundo branco para os botões no tema escuro */
+    color: black; /* Cor do texto dos botões no tema escuro */
+}
+
 
 #calculadora_corpo {
     padding: 46px 0px;
@@ -19,6 +31,7 @@ body {
     align-items: center;
     margin: 180px 0px;
     /* background-color: white; */
+
 }
 
 .erro {
